@@ -7,7 +7,7 @@ try:
 	b = int(input('Podaj drugą liczbę: '))
 	print(dodawanie(a,b))
 except ValueError as ve:
-	print("Wprowadzono błędne dane,", ve)
+	print("Wprowadzono błędne dane, kończe działanie..."")
 
 print(get_info())
 input()
